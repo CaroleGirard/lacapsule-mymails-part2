@@ -1,0 +1,1 @@
+document.getElementById('compteur').textContent = document.getElementsByTagName('p').length;
