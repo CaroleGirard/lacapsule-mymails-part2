@@ -53,3 +53,15 @@ h6 {
     padding: 15px;
     border-bottom: 1px solid #DADADA;
 }
+#champs {
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 10px;
+    width: 100%;
+}
+#bouton {
+    background-color: rgb(231, 216, 241);
+    color: rgb(91, 16, 161);
+    border: 2px solid rgb(91, 16, 161);
+    border-radius: 10%;
+    font-size: 20px;
+}
