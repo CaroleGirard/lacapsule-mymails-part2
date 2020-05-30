@@ -7,3 +7,12 @@ for (var i=0; i<document.getElementsByClassName('trash').length; i++) {
     }
     )
 };
+
+
+document.getElementById('bouton').addEventListener("click",
+function () {
+    var newDiv= document.body.appendChild(document.createElement("div"))
+    var newMessage = document.createTextNode(document.getElementById('champs').value)
+    newDiv.appendChild(newMessage)
+}
+);
